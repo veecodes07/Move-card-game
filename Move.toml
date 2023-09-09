@@ -1,0 +1,19 @@
+[package]
+name = "game"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyAddr = 'c8a4f32b57aebc1bedd448678b721dcb07711e697a5ab9f84ba54bd059ab0de0'
+Std = "0x1"
+aptos_std = "0x1"
+[dev-addresses]
+
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
